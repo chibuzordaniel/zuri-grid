@@ -26,7 +26,7 @@ body{
     width: 469px;
     margin-top: 55px;
     padding: 35px;
-    min-height: 730px;
+    min-height: 630px;
 
 }
 
@@ -34,6 +34,7 @@ body{
     background-color: hsl(31, 77%, 55%);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+
 }
 
 .box2 {
@@ -62,6 +63,9 @@ p{
  color:  hsla(0, 0%, 100%, 0.75);
  font-family: 'Big Shoulders Display', cursive;
  margin: 99px 0;
+ font-size: 25px;
+ width: 200px;
+ line-height: 1.1;
 }
 
 .btn{
@@ -75,6 +79,20 @@ p{
     cursor: pointer;
     font-family: 'Lexend Deca', sans-serif;
     font-weight:700 ;
+ 
+}
+
+.btn1{
+    color: hsl(31, 77%, 52%);
+}
+
+.btn2{
+    color: hsl(184, 100%, 22%); 
+}
+
+
+.btn3{
+    color: hsl(179, 100%, 13%);
 }
 
 
@@ -96,6 +114,7 @@ p{
     border: 2px solid #fff;
     color: #fff;
     transition: 0.4s ;
+   
 }
 
 
@@ -103,28 +122,54 @@ p{
 
     .box-container{
         display: block;
-        
+        margin-left: 40px;
+     
     }
     
     .box1{
-        width: 100%;
+       
+        width: 95%;
         margin-top: 0;
-        border-top-right-radius: 10px;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
         border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+
     }
 
     .box2{
-        width: 100%;
+        width: 95%;
         margin-top: 0;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
-        
     }
 
     .box3{
-        width: 100%;
-        margin-top: 0;
+        width: 95%;
+        margin-top:0 ;
         border-top-right-radius: 0;
-        border-bottom-left-radius: 10px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    p{
+        font-size: 40px;
+        width: 340px;
+        line-height: 1.5;
+    }
+
+    h1{
+       font-size: 50px; 
+    }
+
+
+    .btn{
+        width: 250px;
+        height: 70px;
+        font-size: 25px;
     }
 
 
