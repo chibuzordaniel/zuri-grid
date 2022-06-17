@@ -203,7 +203,7 @@ font-family: 'Big Shoulders Display', cursive;
      
     .flex1{
          display: block;
-        
+         margin-top: -50px;
         }
       
 
